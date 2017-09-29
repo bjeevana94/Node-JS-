@@ -1,10 +1,12 @@
 const https = require('https');
 
-
+// Result function
 function print(city,temp){
   console.log(`Current temperature in ${city} is ${temp}F`);
+
 }
 
+// Error reporting Function
 function errorFunc(error){
   console.log(`Error: ${error.message}`);
 }
